@@ -1,0 +1,10 @@
+ignore_files:
+  - evaluator/
+  - data/
+  - src/getOpeningHours.js
+  - src/handlerElephants.js
+  - .eslintrc.json
+  - .editorconfig
+  - .eslintignore
+  - README.md
+  - .gitignore
