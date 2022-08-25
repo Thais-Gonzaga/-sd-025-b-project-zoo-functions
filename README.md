@@ -44,7 +44,7 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
 	
 - São `4` dias de projeto
 	
-- Data para entrega final do projeto: `dd/mm/yyyy - 14:00h`
+- Data para entrega final do projeto: `12/09/2022 14:00`
 	
 	
 </details><br />
@@ -56,11 +56,11 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
 
 1. Clone o repositório
 
-	*  Use o comando: `git clone git@github.com:tryber/sd-0x-project-zoo-functions.git`
+	*  Use o comando: `git clone git@github.com:tryber/sd-t25-b-project-zoo-functions.git`
 
 * Entre na pasta do repositório que você acabou de clonar:
 
-	*  `cd sd-0x-project-zoo-functions`
+	*  `cd sd-t25-b-project-zoo-functions`
 
 2. Instale as dependências
 
@@ -93,7 +93,7 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
 	* Usando o exemplo anterior: `git push -u origin luiza-zoo-functions-project`
 
 6. Crie um novo `Pull Request`  _(PR)_
-	* Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-project-zoo-functions/pulls)
+	* Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-t25-b-project-zoo-functions/pulls)
 	* Clique no botão verde _"New pull request"_
 	* Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
 	* Coloque um título para o seu _Pull Request_
@@ -101,7 +101,7 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
 	* Clique no botão verde _"Create pull request"_
 	* Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
 	*  **Não se preocupe em preencher mais nada por enquanto!**
-	* Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-project-zoo-functions/pulls) e confira que o seu _Pull Request_ está criado.
+	* Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-t25-b-project-zoo-functions/pulls) e confira que o seu _Pull Request_ está criado.
 	
 </details>
 	
@@ -137,7 +137,7 @@ Para sinalizar que o seu projeto está pronto para o _'Code Review'_ dos seus co
 	
 - No menu à direita, clique no _link_ **'Assignees'** e escolha **o seu usuário**;
 	
-- No menu à direita, clique no _link_ **'Reviewers'** e digite `students`, selecione o time `tryber/students-sd-0x`.
+- No menu à direita, clique no _link_ **'Reviewers'** e digite `students`, selecione o time `tryber/students-sd-025-b`.
 	
 Caso tenha alguma dúvida, [aqui tem um vídeo explicativo](https://vimeo.com/362189205).
 	
