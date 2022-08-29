@@ -1,13 +1,11 @@
 const data = require('../data/zoo_data');
 
-const childs = (entrants) => entrants.filter((ages) => ages.age < 18).map((e) => e.age).length;
-const adults = (entrants) => (
-  entrants.filter((ages) => ages.age >= 18 && ages.age < 50).map((e) => e.age).length);
-const seniors = (entrants) => entrants.filter((ages) => ages.age >= 50).map((e) => e.age).length;
+const ageGroup = (entrants, condition) => entrants.filter(condition).map((e) => e.age).length;
+
 const countEntrants = (entrants) => ({
-  adult: adults(entrants),
-  child: childs(entrants),
-  senior: seniors(entrants),
+  adult: ageGroup(entrants, (ages) => ages.age >= 18 && ages.age < 50),
+  child: ageGroup(entrants, (ages) => ages.age < 18),
+  senior: ageGroup(entrants, (ages) => ages.age >= 50),
 });
 
 const calculateEntry = (entrants) => {
