@@ -11,12 +11,6 @@ const createSpecies = (array) => array.map((animalID) => {
   return name;
 });
 
-// const validateValues = () => {
-//   if (!['AM', 'PM'].includes(abbreviation)) {
-//     throw new Error('The abbreviation must be \'AM\' or \'PM\'');
-//   }
-// };
-
 const createObj = (values) => {
   const employee = employees.find((emp) => (
     emp.firstName === values
